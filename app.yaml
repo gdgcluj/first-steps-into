@@ -5,5 +5,8 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /github
-  static_dir: github
+- url: /first-steps-into/github/(.*\.(htm|html|css|js))$
+  static_files: github/\1
+- url: /first-steps-into/github/
+  static_files: github/index.html
+
