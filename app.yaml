@@ -8,5 +8,5 @@ handlers:
 - url: /first-steps-into/github/(.*\.(htm|html|css|js))$
   static_files: github/\1
 - url: /first-steps-into/github/
-  static_files: github/index.html
+  script: github/index.html
 
