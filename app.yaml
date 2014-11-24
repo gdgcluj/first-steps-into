@@ -1,12 +1,11 @@
-application: gdgcluj-github-demo
+application: first-steps-into
 version: 1
 runtime: php
 api_version: 1
 threadsafe: true
 
 handlers:
-- url: /first-steps-into/github/(.*\.(htm|html|css|js))$
-  static_files: github/\1
-  upload: github/.*\.(htm|html|css|js)$
-- url: /first-steps-into/github/
-  script: github/index.html
+- url: /github/
+  script: /github/index.html
+- url: /github
+  static_dir: github
