@@ -5,11 +5,7 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /github/
-  script: /github/index.html
-- url: /github
-  static_dir: github
-- url: /impress.js
-  static_dir: impress.js
-- url: /impress.js
-  static_dir: impress.js
+- url: /html5/
+  script: /html5/index.html
+- url: /html5
+  static_dir: html5
