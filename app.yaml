@@ -9,3 +9,7 @@ handlers:
   script: /github/index.html
 - url: /github
   static_dir: github
+- url: /impress.js
+  static_dir: impress.js
+- url: /impress.js
+  static_dir: impress.js
